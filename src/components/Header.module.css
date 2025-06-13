@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-/* Estilo para DESKTOP */
+
 @media (min-width: 768px) {
   .headerContent {
     flex-direction: row;

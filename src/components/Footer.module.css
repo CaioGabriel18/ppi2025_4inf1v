@@ -48,12 +48,12 @@
 }
 
 .icons svg {
-  stroke: black; /* Cor padrão */
+  stroke: black; 
   transition: stroke 0.3s;
 }
 
 .icons a:hover svg {
-  stroke: blue; /* Cor no hover */
+  stroke: blue; 
 }
 .footeiconsrRight svg {
   width: 24px;
