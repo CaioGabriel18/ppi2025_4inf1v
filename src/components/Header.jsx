@@ -1,14 +1,16 @@
-import styles from './Header.module.css';
+import styles from "./Header.module.css";
+import img from "../assets/imgs/pomodoro.png";
 
-export default function Header() {
+export function Header() {
   return (
-    <header className={styles.header}>
-      <div className={styles.headerContent}>
-        <img src="https://picsum.photos/80" alt="Logo" className={styles.logo} />
-        <h1 className={styles.title}>Foco, Força, Fé</h1>
+    <div className={styles.container}>
+      <div className={styles.containerImg}>
+        <img
+          src={img}
+          alt="Foco, Força e Fé"
+        />
       </div>
-    </header>
+      <h1>Foco, Força, Fé</h1>
+    </div>
   );
 }
-
-
