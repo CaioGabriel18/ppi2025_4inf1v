@@ -5,3 +5,10 @@
   padding: 2rem;
   gap: 2rem;
 }
+
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 9.0rem;
+  text-align: center;
+}
