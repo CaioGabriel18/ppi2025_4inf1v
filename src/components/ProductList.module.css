@@ -4,11 +4,18 @@
   align-items: center;
   padding: 2rem;
   gap: 2rem;
+  background: linear-gradient(135deg, #be0e0e 0%, #000000 100%);
 }
 
-.title {
-  font-size: 3.5rem;
-  font-weight: bold;
-  margin-bottom: 9.0rem;
-  text-align: center;
+.productList {
+  padding: 1rem 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-rows: repeat(auto-fit, min-content);
 }
+
+
+
+
+
