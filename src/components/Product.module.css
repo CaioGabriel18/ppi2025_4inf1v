@@ -1,13 +1,14 @@
 .productCard {
-  border: 0.25rem solid var(--primary);
+  border: 0.25rem solid #fff;
   border-radius: 5rem;
   padding: 2rem;
   text-align: center;
-  background-color: var(--gray-100);
+  background: linear-gradient(135deg, #0a2342 0%, #000000 100%);
 }
 
 .productImage {
   width: 100%;
+  max-width: 30rem;
   border-radius: 0.5rem;
 }
 
@@ -15,22 +16,24 @@
   font-size: 3rem;
   font-weight: bold;
   margin: 0.5rem 0;
+  color: #fff;
 }
 
 .productDescription {
   font-size: 2rem;
-  color: var(--primary-dark);
+  color: #ff0000; 
 }
 
 .productPrice {
   font-size: 2rem;
   font-weight: bold;
   margin: 2rem 0;
+  color: #fff;
 }
 
 .productButton {
-  background-color: var(--primary);
-  color: var(--gray-900);
+  background-color: #fff;      
+  color: #000;                 
   border: none;
   padding: 1rem 2rem;
   border-radius: 1rem;
@@ -39,5 +42,5 @@
 }
 
 .productButton:hover {
-  background-color: var(--primary-dark);
+  background-color: #bebcbc;
 }

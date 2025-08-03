@@ -3,8 +3,10 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  margin: 15rem 0;
   gap: 2rem;
-  background: linear-gradient(135deg, #be0e0e 0%, #000000 100%);
+  background: linear-gradient(135deg, #be0101 0%, #000000 100%);
+  min-height: 100vh;
 }
 
 .productList {
@@ -15,7 +17,38 @@
   grid-template-rows: repeat(auto-fit, min-content);
 }
 
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
 
+.searchInput {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  max-width: 60rem;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 2rem;
+  border: 0.25rem solid #000000;
+  border-radius: 1rem;
+}
 
+.searchButton {
+  background-color: #fff;
+  color: var(--gray-900);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 0.25rem solid var(--gray-900);
+}
 
-
+.searchButton:hover {
+  background-color: #bebcbc;
+}
