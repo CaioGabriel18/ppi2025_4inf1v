@@ -62,3 +62,18 @@
   font-weight: bold;
   z-index: 1;
 }
+
+.navButton {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.navButton:hover {
+  background: #145ca4;
+}
